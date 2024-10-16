@@ -49,3 +49,27 @@ function downloadFiles(files) {
   }
   timer();
 }
+
+let file1 = new FileDownload("nombre1", 200);
+let file2 = new FileDownload("nombre2", 300);
+let file3 = new FileDownload("nombre3", 400);
+let file4 = new FileDownload("nombre4", 500);
+let file5 = new FileDownload("nombre5", 600);
+let file6 = new FileDownload("nombre6", 700);
+let file7 = new FileDownload("nombre7", 800);
+let file8 = new FileDownload("nombre8", 900);
+let file9 = new FileDownload("nombre9", 1000);
+let file10 = new FileDownload("nombre10", 1100);
+
+downloadFiles([
+  file1,
+  file2,
+  file3,
+  file4,
+  file5,
+  file6,
+  file7,
+  file8,
+  file9,
+  file10,
+]);
